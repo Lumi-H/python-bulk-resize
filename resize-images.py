@@ -38,17 +38,7 @@ def resize_images_in_folder(file_array, folder_path, category, ID):
 
 
 def main():
-    array = get_images_in_folder("/home/lumi/python-mario-images/pictures/")
-    resize_images_in_folder(array, "/home/lumi/python-mario-images/pictures/", "oil", 40)
-    #image_title = "/home/lumi/python-mario-images/pictures/107601897_718381795402446_5323467314797402784_n.jpg"
-    #resize_single_image(image_title)
-
-    #array = get_images_in_folder("/home/lumi/python-mario-images/pictures")
-    #resize_images_in_folder(array, "/home/lumi/python-mario-images/pictures/")
+    array = get_images_in_folder("path/to/folder")
+    resize_images_in_folder(array, "path/to/folder", "category-1", 1)
 
 main()
-
-# Step 1: get all the images
-# Step 2: for each image perform steps 3, 4,
-# Step 3: if width > height
-            # resize image
